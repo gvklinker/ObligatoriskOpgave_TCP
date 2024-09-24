@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObligatoriskOpgave_TCP", "ObligatoriskOpgave_TCP\ObligatoriskOpgave_TCP.csproj", "{866C893B-817A-4C6B-BF36-3F0BAE577FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{866C893B-817A-4C6B-BF36-3F0BAE577FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866C893B-817A-4C6B-BF36-3F0BAE577FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866C893B-817A-4C6B-BF36-3F0BAE577FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866C893B-817A-4C6B-BF36-3F0BAE577FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B94106B-0527-421A-AD64-130A86E26645}
+	EndGlobalSection
+EndGlobal
