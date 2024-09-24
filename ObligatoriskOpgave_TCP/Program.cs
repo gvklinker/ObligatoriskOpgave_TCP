@@ -18,9 +18,10 @@ void HandleClient(TcpClient socket)
     NetworkStream ns = socket.GetStream();
     StreamReader sr = new StreamReader(ns);
     StreamWriter sw = new StreamWriter(ns);
+    sw.WriteLine("Welcome");
     while (socket.Connected)
     {
-        sw.WriteLine("Welcome \nPick between: Add, Subtract or Random");
+        sw.WriteLine("Pick between: Add, Subtract or Random");
         sw.Flush();
         string message = sr.ReadLine().ToLower();
         sw.WriteLine("Input numbers");
